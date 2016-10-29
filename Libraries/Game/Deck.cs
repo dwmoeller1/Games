@@ -8,6 +8,8 @@ namespace Game
 {
     class Deck:List<Card>
     {
+        static Random r = new Random();
+        
         public virtual void Shuffle()
         {
             for (int n = this.Count -1; n > 0; --n)
