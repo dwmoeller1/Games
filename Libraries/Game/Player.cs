@@ -9,9 +9,9 @@ namespace Game
 {
     public class Player
     {
-        public int Id { get; set; }
-        public Color? Color { get; set; }
-        public string Name { get; set; }
+        public virtual int Id { get; set; }
+        public virtual Color? Color { get; set; }
+        public virtual string Name { get; set; }
 
         public Player(int id)
         {
